@@ -10,7 +10,7 @@ int main(){
 	printf("Enter temperature in Fahrenheit: ");
 
 	//input: temperature in Fahrenheit 
-	scanf("%.2f", &fahrenheit);
+	scanf("%f", &fahrenheit);
 
 	//process: convert Fahrenheit into Celsius 
 	celsius = (fahrenheit - 32) * 5 / 9;
